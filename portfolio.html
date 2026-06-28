@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — BuildResearch</title>
+  <meta name="description" content="Realising research value — the BuildResearch portfolio. A selection of our recent client projects: their setting, challenges and outcomes.">
+  <meta name="theme-color" content="#16243F">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="BuildResearch home">
+          <img class="brand__logo" src="assets/logo.png" alt="BuildResearch logo" width="556" height="228">
+        </a>
+        <button class="nav__toggle" aria-label="Open menu" aria-controls="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="nav__menu" id="menu">
+          <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="think-tank.html">Think Tank</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+          <a class="nav__cta" href="contact.html">Enquire</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero hero--full">
+      <div class="hero__grid">
+        <div class="hero__main">
+          <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Portfolio</p>
+          <p class="eyebrow" style="margin-top:16px;">Realising research value</p>
+          <h1 class="hero__title" style="font-size:clamp(36px,4.8vw,56px);">Our <span class="u-draw">portfolio</span></h1>
+          <p class="hero__lead">A selection of our most recent projects — their setting, challenges and outcomes. Explore our completed client work and discover the quality, innovation and dedication that define what we do.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="contact.html"><span>Discuss a project</span></a>
+            <a class="link-gold" href="#work">See the work <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="globe-stage">
+            <canvas class="globe-canvas" data-model="folio" role="img" aria-label="A 3D portfolio card you can drag to rotate"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECT ============ -->
+    <section class="section section--media" id="work" style="--bg:url('assets/images/work-policy.jpg')">
+      <div class="container">
+        <div class="split split--media-right reveal">
+          <div>
+            <span class="s-index">01 — Featured project</span>
+            <div class="work__kicker" style="margin-top:14px;">Policy &amp; government</div>
+            <h2 class="section-title" style="margin:6px 0 16px;">Strengthening a national research ecosystem</h2>
+            <div class="prose">
+              <p><strong>The setting.</strong> A national body needed to raise the quality, coherence and influence of research across a complex, multi-stakeholder ecosystem.</p>
+              <p><strong>What we did.</strong> We combined rigorous evidence with a clear strategic narrative — mapping capability, defining standards, and shaping a programme to lift research practice and impact at scale.</p>
+              <p><strong>The outcome.</strong> Clearer evidence, stronger processes and more confident teams — and a body of thought leadership that built reputation and profile.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MORE WORK ============ -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="s-head reveal">
+          <div class="s-head__main">
+            <span class="s-index">02 — More from our work</span>
+            <h2>Across sectors &amp; disciplines</h2>
+          </div>
+          <a class="link-gold s-head__action" href="contact.html">Discuss a project <span aria-hidden="true">→</span></a>
+          <span class="s-ghost" aria-hidden="true">02</span>
+        </div>
+        <div class="work-grid">
+          <a class="work reveal" href="contact.html">
+            <div class="media media--4x3 media--duotone media--frame media--accent reveal-img">
+              <img src="assets/images/work-professional.jpg" alt="Strategy and planning at a desk" loading="lazy" decoding="async">
+            </div>
+            <div class="work__kicker">Professional body</div>
+            <h3>Setting a new standard for member research</h3>
+          </a>
+          <a class="work reveal" data-delay="1" href="contact.html">
+            <div class="media media--4x3 media--duotone media--frame reveal-img">
+              <img src="assets/images/work-commercial.jpg" alt="Corporate towers against the sky" loading="lazy" decoding="async">
+            </div>
+            <div class="work__kicker">Commercial</div>
+            <h3>Evidence to power a market strategy</h3>
+          </a>
+          <a class="work reveal" data-delay="2" href="contact.html">
+            <div class="media media--4x3 media--duotone media--frame reveal-img">
+              <img src="assets/images/work-university.jpg" alt="University campus building" loading="lazy" decoding="async">
+            </div>
+            <div class="work__kicker">University</div>
+            <h3>Raising research profile &amp; reputation</h3>
+          </a>
+        </div>
+        <p class="form__note reveal" style="margin-top:22px;">These are illustrative of the work we do. Have a project in mind? <a class="link-gold" href="contact.html" style="font-size:13.5px;">Tell us about it →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ IMPACT STATS ============ -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat"><div class="stat__num" data-count="360" data-suffix="°">0°</div><div class="stat__label">Research design &amp; development</div></div>
+          <div class="stat"><div class="stat__num" data-count="3">0</div><div class="stat__label">Core service practices</div></div>
+          <div class="stat"><div class="stat__num" data-count="5" data-suffix="+">0+</div><div class="stat__label">Sectors served</div></div>
+          <div class="stat"><div class="stat__num">∞</div><div class="stat__label">Ambition for better</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section--tight cta-gold">
+      <div class="container cta-gold" style="padding-block:0;">
+        <div class="reveal">
+          <h2>Could your project be next?</h2>
+          <p>Tell us what you're working on — we'll point you to the right kind of help.</p>
+        </div>
+        <a class="btn btn--primary reveal" data-delay="1" href="contact.html">Start a conversation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html" aria-label="BuildResearch home">
+            <img class="brand__logo brand__logo--light" src="assets/logo.png" alt="BuildResearch logo" width="556" height="228">
+          </a>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="think-tank.html">Think Tank</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Insights</h4>
+          <ul>
+            <li><a href="contact.html">Articles &amp; Blogs</a></li>
+            <li><a href="contact.html">News</a></li>
+            <li><a href="contact.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> buildresearch.co.uk</span>
+        <span>United Kingdom · Working globally</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/hero3d.js" defer></script>
+</body>
+</html>
