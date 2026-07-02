@@ -2053,6 +2053,21 @@ body { font-optical-sizing: auto; }
 .band-photo p { color: rgba(245, 243, 238, 0.86); }
 .band-photo__grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 54px; align-items: center; }
 
+/* Centered variant — even scrim for centred statements (About mission) */
+.band-photo--center { text-align: center; }
+.band-photo--center::after { background: rgba(13, 22, 41, 0.78); }
+.band-photo--center blockquote {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(26px, 4vw, 44px);
+  line-height: 1.22;
+  letter-spacing: -0.4px;
+  color: #F5F3EE;
+  max-width: 21ch;
+  margin: 18px auto 0;
+}
+.band-photo--center blockquote .accent { color: var(--gold-400); font-style: italic; }
+
 /* ---------- Featured insight (asymmetric) ---------- */
 .insight-feature {
   display: grid;
@@ -2484,6 +2499,14 @@ a.case-card:hover .case-card__rule { width: 56px; }
   transition: gap 0.25s var(--ease), color 0.25s var(--ease);
 }
 a.case-card:hover .case-card__read { gap: 13px; color: var(--gold-500); }
+
+/* "View all" tile used in More-cases grids on case study pages */
+.case-card--cta { display: grid; place-items: center; text-align: center; background: linear-gradient(160deg, var(--navy-700), var(--navy-900)); }
+.case-card--cta::after { display: none; }
+.case-card--cta .inner { position: relative; z-index: 2; padding: 30px; }
+.case-card--cta .n { font-family: var(--serif); font-size: clamp(38px, 4vw, 52px); line-height: 1; color: var(--gold-400); display: block; margin-bottom: 14px; }
+.case-card--cta h3 { color: #F5F3EE; font-size: 21px; margin-bottom: 8px; }
+.case-card--cta p { color: rgba(245, 243, 238, 0.7); font-size: 14px; line-height: 1.5; margin-bottom: 18px; }
 
 /* ---------- Outcomes band (what every engagement leaves behind) ---------- */
 .outcomes { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(26px, 3.5vw, 44px); }
